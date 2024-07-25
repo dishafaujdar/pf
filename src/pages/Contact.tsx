@@ -15,7 +15,6 @@ const Contact:React.FC<Sidebar>=({isopen,onClose})=> {
         <li><a href="https://twitter.com/dishafaujdar" target="_blank" rel="noopener noreferrer">X</a></li>
         <li><a href="https://www.linkedin.com/in/disha-faujdar-df1102/" target="_blank" rel="noopener noreferrer">Linkedin</a></li> 
         <li><a href="https://github.com/dishafaujdar" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        <li><a href="https://www.instagram.com/maidishahoon" target="_blank" rel="noopener noreferrer">Instagram</a></li>
       </ul>
     </div>
   );
