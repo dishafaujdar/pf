@@ -14,7 +14,7 @@ const Nav: React.FC = () => {
     return (
         <>
         <nav className={styles.nav}>
-        <div className={styles.navFlag} role="img" aria-label="India flag">🇮🇳</div>
+        <div className={styles.navFlag} role="imgage" aria-label="India flag">🇮🇳</div>
         <ul className={styles.navList}>
                 {/* <div className={styles.navFlag} role="img" aria-label="India flag">🇮🇳</div> */}
 

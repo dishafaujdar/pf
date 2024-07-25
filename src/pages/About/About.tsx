@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles.module.css';
-// import photo from '../../../public/image/disha.jpg'
+import Image from 'next/image'
+import photo from '../../../public/image/disha.jpg'
 
 const About: React.FC = () => {
 
@@ -8,7 +9,7 @@ const About: React.FC = () => {
         <section className={styles.about}>
             <div className={styles.profileAndIntro}>
                 <div className={styles.profilePicContainer}>
-                    <img src= '/image/disha.jpg' alt="Profile Picture" className={styles.profilePic}  />
+                    <Image src= {photo} alt="Profile Picture" className={styles.profilePic}  />
                 </div>
                 <div className={styles.aboutPhoto}>
                     <div className={styles.aboutText}>
