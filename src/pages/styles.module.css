@@ -1,0 +1,148 @@
+/* <span role="img" aria-label="India flag">🇮🇳</span> 
+ • 
+ /* width: 300px;
+  height: 250px;
+  background: linear-gradient(135deg, #ff00ff, #800080);
+  border-radius: 70% 30% 70% 30% / 60% 40% 60% 40%; */
+  
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;    
+}
+
+.profileAndIntro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profilePicContainer {
+  flex: 0 0 auto; 
+  margin-right: 20px;
+}
+
+.profilePic {
+  width: 200px;  
+  height: 200px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+} 
+
+.aboutPhoto {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.aboutText {
+  width: 100%;   
+  text-align: left;
+  margin-top: 20px;
+  font-size: medium;
+}
+
+
+.work {
+  margin: 20px 0;
+}
+
+.workItem {
+  margin-bottom: 10px;
+}
+
+.workHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.workTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.workDate {
+  text-align: right;
+}
+
+.workTitle h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.workTitle p {
+  margin: 0;
+  color: grey;
+  /* font-weight:bold ;  */
+}
+
+.workDate p {
+  margin: 0;
+  color: grey;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+  color: grey;
+  font-weight:bold;
+
+}
+
+.work {
+  position: relative;
+  padding-left: 20px;
+}
+
+.work::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px; /* Adjust the width of the line as needed */
+  background-color: grey; /* Adjust the color as needed */
+}
+
+.workItem {
+  margin-bottom: 20px;
+}
+
+.nav {
+  padding: 10px;
+  /* text-align: right; */
+  margin-top: 30px;
+}
+
+.navList {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content:right;
+  list-style-type: none;
+}
+
+.navItem {
+  margin: 0 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: grey;
+  font-weight:bolder;
+  font-size: large;
+
+}
+
+.navFlag {
+  height: 30px;
+  width: 30px;
+  margin-right: 80rem;
+  font-size: larger;
+  font-weight: bolder;
+}
+.navLink:hover {
+  text-decoration: underline;
+} 

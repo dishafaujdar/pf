@@ -1,0 +1,23 @@
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    height: 100vh;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Equal margins on both sides */
+.container {
+    background-color: #F5F5F5;
+    /* background-color: #F8F8F8; */
+    max-width: auto; /* Adjust based on your desired max width */
+    max-height: auto;
+    padding: 0 20px;   /* Adjust based on your desired padding */
+    margin: 30px
+}
+
