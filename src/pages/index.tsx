@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Nav from './Navbar/Navbar';
 import About from './About/About';
 import Work from './work/Work';
-import '../styles.global.css'
+import './styles.global.css';
 
 const Home:React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
