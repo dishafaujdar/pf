@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../pages/styles.module.css';
+import Image from 'next/image'
 // import photo from '../../../public/image/disha.jpg'
 
 interface ProfileSection {
@@ -17,7 +18,7 @@ const ProfileTemp : React.FC<ProfileSection> = ({photo,name,intro,description,ag
         <section className={styles.about}>
             <div className={styles.profileAndIntro}>
                 <div className={styles.profilePicContainer}>
-                    <img src= {photo} alt="Profile Picture" className={styles.profilePic}  />
+                    <Image src= {photo} alt="Profile Picture" className={styles.profilePic}  />
                 </div>
                 <div className={styles.aboutPhoto}>
                     <div className={styles.aboutText}>
