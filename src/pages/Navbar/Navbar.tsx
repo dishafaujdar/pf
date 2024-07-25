@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Contact from '../Contact'; 
-import styles from '../styles.module.css'
+import styles from '../../app/styles.module.css';
 
 const Nav: React.FC = () => {
 

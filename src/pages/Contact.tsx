@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './navv.module.css';
+import styles from '../app/navv.module.css';
 
 interface Sidebar{
   isopen:boolean,
