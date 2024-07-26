@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../../app/styles.module.css';
 import Image from 'next/image'
-import photo from '../../../public/image/disha.jpg'
+import photo from '../../../public/image/disha2.png'
 
 const About: React.FC = () => {
 

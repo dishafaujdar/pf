@@ -25,9 +25,10 @@
 
 .profilePic {
   width: 200px;  
-  height: 200px; 
+  height: 250px; 
   border-radius: 50%; 
-  object-fit: cover; 
+  object-fit: cover;
+  transition: transform 0.5s ease; 
 } 
 
 .aboutPhoto {
@@ -40,7 +41,7 @@
   width: 100%;   
   text-align: left;
   margin-top: 20px;
-  font-size: medium;
+  font-size: large;
 }
 
 
