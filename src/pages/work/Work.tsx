@@ -21,7 +21,7 @@ const Work: React.FC = () => {
                     <ul>
                         <li> Worked on building web application from scratch with Nodejs, Express, Javascript, MongoDB.</li>
                         <br/>
-                        <li> This side project help me in Understanding : <br/>  • How database work, how it store users information <br /> • How JsonWebToken work, storing user info and fetching <br/>  • Auth0 working, about the hooks  
+                        <li> This side project help me in Understanding : <br/>  • How database work, how it store users information <br /> • How JsonWebToken work, storing user info and fetching <br/>  • OAuth working, about the hooks  
                         </li>
                     </ul>
                     </div>
@@ -41,7 +41,7 @@ const Work: React.FC = () => {
                 </div>
                 <div className={styles.ul}>
                     <ul>
-                        <li> Worked on building web application from scratch with Python, Django, Angular, and some python libaray. </li>
+                        <li> Worked on building web application from scratch with Python, Django, Angular, and some python libaray (currentlt wokring) </li>
                         <br/>
                         <li> This side project help me in Understanding : <br/>  • How database work, how it store users information <br /> • How JsonWebToken work, storing user info and fetching <br/>  
                         </li>

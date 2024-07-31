@@ -22,7 +22,10 @@
   flex: 0 0 auto; 
   margin-right: 20px;
 }
-
+.bugpf{
+  width: 15px;
+  height: 15px;
+}
 .profilePic {
   width: 200px;  
   height: 250px; 
