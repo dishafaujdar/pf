@@ -2,8 +2,6 @@ import React from 'react';
 import styles from '../../app/styles.module.css';
 import Image from 'next/image'
 import photo from '../../../public/image/disha2.png'
-import bug from '../../../public/image/lady-bug.png'
-
 const About: React.FC = () => {
 
     return (
@@ -21,7 +19,7 @@ const About: React.FC = () => {
             </div>
             <div className={styles.aboutText}>
                 <h3>about me</h3>
-                <p style={{fontSize:'medium'}}> figuring bugs out <Image src={bug} alt="bug" className={styles.bugpf} ></Image> <br/> 
+                <p style={{fontSize:'medium'}}> figuring bugs out 🐛 <br/> 
                 available <span style={{ color: '#3CB41B' }}> ● </span> </p>
             </div>
         </section>

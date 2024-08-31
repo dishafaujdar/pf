@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Nav from './Navbar/Navbar';
-import About from './About/About';
-import Work from './work/Work';
+import Nav from './Navbar/page';
+import About from './About/page';
+import Work from './work/page';
 import '../app/styles.global.css';
 
 const Home:React.FC = () => {
