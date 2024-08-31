@@ -20,7 +20,7 @@ const Nav: React.FC = () => {
                     <button><Link href="/"><span className={styles.navLink}> • home</span></Link></button>
                 </li>
                 <li className={styles.navItem}>
-                    <button><Link href="/resume.pdf" target="_blank" rel="noopener noreferrer"><span className={styles.navLink}> • resume</span></Link></button>
+                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"><button><span className={styles.navLink}> • resume</span></button></a>
                 </li>
                 <li className={styles.navItem}>
                     <button className={styles.navLink} onClick={handleSidebarToggle}>• contact</button>

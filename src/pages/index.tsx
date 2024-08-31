@@ -13,7 +13,7 @@ const Home:React.FC = () => {
 
   return (
     <div className="container">    
-    <Nav />
+    <Nav/>
     <About/>
     <Work/>
     </div>
